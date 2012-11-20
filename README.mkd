@@ -1,0 +1,17 @@
+gohs
+====
+
+MySQL [HandlerSocket][hs] client in Go. It speaks the [text
+protocol][hs-protocol] and properly handles string encoding in both requests and
+responses. 
+
+
+
+TODO
+----
+
+* `find` request with `filter`
+* `find_modify` request
+
+[hs]: https://github.com/DeNADev/HandlerSocket-Plugin-for-MySQL "HandlerSocket"
+[hs-protocol]: https://github.com/DeNADev/HandlerSocket-Plugin-for-MySQL/blob/master/docs-en/protocol.en.txt "HandlerSocket protocol"
