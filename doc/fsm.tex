@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{standalone}
 
 \usepackage{tikz}
 \usetikzlibrary{automata,shapes}
@@ -6,9 +6,7 @@
 \usepackage{charter}
 
 \begin{document}
-				
-\begin{figure}
-\begin{center}
+
 \begin{tikzpicture}[shorten >=1pt,auto, node distance=4cm]
 	\node[state,initial]	(q0)	{0};
 	\node[state]		(q1) [right of=q0]	{1};
@@ -29,8 +27,5 @@
 			edge  			node {0x0A}		(q4)
 		;
 \end{tikzpicture}
-\end{center}
-\caption{Finite-State Machine for HandlerSocket Protocol}
-\end{figure}
 
 \end{document}
