@@ -1,3 +1,6 @@
+/*
+MySQL HandlerSocket client in Go.
+*/
 package handlersocket
 
 import (
@@ -101,7 +104,7 @@ func (hs *handlerSocket) Insert(id int, args ...interface{}) (err error) {
 	return
 }
 
-// flush previous writes 
+// flush previous writes
 func (hs *handlerSocket) Flush() error {
 	return hs.w.Flush()
 }
